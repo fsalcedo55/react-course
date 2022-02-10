@@ -1,0 +1,10 @@
+ReactDOM.render(
+  <ul>
+    <li>Apples</li>
+    <li>Carrots</li>
+    <li>Tomatoes</li>
+    <li>Potatoes</li>
+    <li>Brocoli</li>
+  </ul>,
+  document.getElementById("root")
+);

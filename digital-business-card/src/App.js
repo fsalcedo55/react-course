@@ -9,8 +9,10 @@ export default function App() {
   return (
     <div className="main-card">
       <Info />
-      <About />
-      <Interests />
+      <div className="middle-background">
+        <About />
+        <Interests />
+      </div>
       <Footer />
     </div>
   );

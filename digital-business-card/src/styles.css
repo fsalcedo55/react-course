@@ -1,0 +1,29 @@
+* {
+    font-family: Helvetica;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    background: #1A1B21;
+    max-width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    color: white;
+}
+
+.occupation {
+    color: #F3BF99;
+}
+
+.email {
+    color: white;
+}

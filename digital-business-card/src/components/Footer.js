@@ -1,12 +1,14 @@
 import React from "react";
+import github from "../images/github-logo.png";
+import twitter from "../images/twitter-logo.png";
+import instagram from "../images/instagram-logo.png";
 
 export default function Footer() {
   return (
     <div className="footer">
-      <img src="" alt="bird-logo" />
-      <img src="" alt="f-logo" />
-      <img src="" alt="camera-logo" />
-      <img src="" alt="cat-logo" />
+      <img src={twitter} alt="bird-logo" />
+      <img src={instagram} alt="camera-logo" />
+      <img src={github} alt="cat-logo" />
     </div>
   );
 }

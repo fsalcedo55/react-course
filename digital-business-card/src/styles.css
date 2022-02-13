@@ -107,4 +107,10 @@
   background-color: #161619;
   border-radius: 0px 0px 10px 10px;
   height: 64px;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 32px;
+  padding: 16px;
 }

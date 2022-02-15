@@ -9,6 +9,7 @@ export default function Footer() {
       <img src={twitter} alt="bird-logo" className="logo" />
       <img src={instagram} alt="camera-logo" className="logo" />
       <img src={github} alt="cat-logo" className="logo" />
+      <p>Copyright 2022</p>
     </div>
   );
 }

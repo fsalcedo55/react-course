@@ -11,6 +11,7 @@ export default function Joke(props) {
         <b>Punchline: </b>
         {props.punchline}
       </p>
+      <p>{props.number}</p>
       ***************
     </div>
   );
